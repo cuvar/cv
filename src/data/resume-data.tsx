@@ -18,6 +18,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://cuvar.dev",
   contact: {
     email: "luca@cuvar.dev",
+    tel: null,
     social: [
       {
         name: "GitHub",
