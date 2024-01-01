@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Walldorf",
   about: "Full Stack Engineer",
   summary:
-    "I'm an aspiring fullstack software engineer with a passion for the web and a love for developing user-facing applications. I find joy in creating helpful products that enhance user experiences. I'm currently contributing to the innovative field at SAP, specializing in the UI5 framework. I am enthusiastic about learning and exploring new technologies and fields, with a big interest in software architecture. Always driven by curiosity, I love staying on the cutting edge of software development trends. Hence, I actively seek opportunities to deepen my understanding and contribute to the design of systems and technologies.",
+    "I'm an aspiring fullstack software engineer with a passion for the web and a love for developing user-facing applications. I find joy in creating helpful products that enhance user experiences. Currently, I'm contributing to the UI5 framework at SAP. I am enthusiastic about learning and exploring new technologies and fields, with a big interest in software architecture. Always driven by curiosity, I love staying on the cutting edge of software development trends. Hence, I actively seek opportunities to deepen my understanding and contribute to the design of systems and technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/49287189?v=4",
   personalWebsiteUrl: "https://cuvar.dev",
   contact: {
@@ -69,6 +69,16 @@ export const RESUME_DATA = {
         'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
     },
     {
+      company: "DLRG Ortsgruppe Landau e.V",
+      link: "https://landau.dlrg.de",
+      badges: ["Remote"],
+      title: "Fullstack Software Engineer",
+      start: "2021",
+      end: "2023",
+      description:
+        "Build and led the development of a software for tracking COVID-19 rapid tests using UI5 and PHP. Tracked a total of 150,000 tests and saved a total of estimated 100+ Excel files.",
+    },
+    {
       company: "SAP SE",
       link: "https://sap.com",
       badges: [],
@@ -78,16 +88,6 @@ export const RESUME_DATA = {
       end: "2023",
       description:
         "I worked as student in various departments of the company and helped improve technologies and products, e.g. implemented a prototype of a Web Component for a Table Control (SAPUI5)",
-    },
-    {
-      company: "DLRG Ortsgruppe Landau e.V",
-      link: "https://landau.dlrg.de",
-      badges: ["Remote"],
-      title: "Fullstack Software Engineer",
-      start: "2021",
-      end: "2023",
-      description:
-        "Build and led the development of a software for tracking COVID-19 rapid tests using UI5 and PHP. Tracked a total of 150,000 tests and saved a total of estimated 100+ Excel files.",
     },
   ],
   skills: [
