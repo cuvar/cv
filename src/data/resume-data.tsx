@@ -1,13 +1,9 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import {
-  ClevertechLogo,
   ConsultlyLogo,
   JarockiMeLogo,
-  JojoMobileLogo,
   Minimal,
   MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
 } from "@/images/logos";
 
 export const RESUME_DATA = {
@@ -43,55 +39,55 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Corporate State University Baden-Württemberg Karlsruhe",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2020",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "vaevo UG (haftungsbeschränkt)",
+      link: "https://vaevo.de/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      title: "Co-Founder and Developer",
+      // logo: JojoMobileLogo,
+      start: "2023",
+      end: "present",
+      description:
+        "Designed and developed websites and web applications for small and medium-sized businesses in the main sectors of gastronomy and winery.",
+    },
+    {
+      company: "SAP SE",
+      link: "https://sap.com",
+      badges: [],
+      title: "Developer Advocate",
+      // logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "SAP SE",
+      link: "https://sap.com",
+      badges: [],
+      title: "Vocational Training Student",
+      // logo: ParabolLogo,
+      start: "2020",
+      end: "2023",
+      description:
+        "I worked as student in various departments of the company and helped improve technologies and products, e.g. implemented a prototype of a Web Component for a Table Control (SAPUI5)",
+    },
+    {
+      company: "DLRG Ortsgruppe Landau e.V",
+      link: "https://landau.dlrg.de",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      title: "Fullstack Software Engineer",
+      start: "2021",
+      end: "2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Build and led the development of a software for tracking COVID-19 rapid tests using UI5 and PHP. Tracked a total of 150,000 tests and saved a total of estimated 100+ Excel files.",
     },
   ],
   skills: [
