@@ -34,7 +34,7 @@ export default function RootLayout({
       <body>{children}</body>
       <Script
         defer
-        data-domain="cuvar.dev"
+        data-domain="cv.cuvar.dev"
         strategy="afterInteractive"
         src="https://plausible.io/js/plausible.js"
       ></Script>
