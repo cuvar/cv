@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       company: "SAP SE",
       link: "https://sap.com",
       badges: [],
-      title: "Developer Advocate",
+      title: "Developer Associate",
       // logo: ParabolLogo,
       start: "2021",
       end: "present",
@@ -133,6 +133,17 @@ export const RESUME_DATA = {
       link: {
         label: "vocab.dyme.one",
         href: "https://vocab.dyme.one/",
+      },
+    },
+    {
+      title: "days-since-last-js-framework",
+      techStack: ["Side Project", "TypeScript", "Svelte", "Tailwind"],
+      description:
+        "A counter for the days since the last JS framework was released",
+      logo: MonitoLogo,
+      link: {
+        label: "dayssincelastjsframework.com",
+        href: "https://dayssincelastjsframework.com/",
       },
     },
     {
