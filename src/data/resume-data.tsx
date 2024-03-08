@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       company: "SAP SE",
       link: "https://sap.com",
       badges: [],
-      title: "Developer Associate",
+      title: "Developer",
       // logo: ParabolLogo,
       start: "2021",
       end: "present",
