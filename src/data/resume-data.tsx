@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Developer",
       // logo: ParabolLogo,
-      start: "2021",
+      start: "2023",
       end: "present",
       description:
         'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
