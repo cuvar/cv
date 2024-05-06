@@ -38,8 +38,8 @@ export const RESUME_DATA = {
     {
       school: "Corporate State University Baden-Württemberg Karlsruhe",
       degree: "Bachelor's Degree in Computer Science",
-      start: "2020",
-      end: "2023",
+      start: "Oct. 2020",
+      end: "Sep. 2023",
     },
   ],
   work: [
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       link: "https://vaevo.de/",
       badges: ["Remote"],
       title: "Co-Founder and Developer",
-      start: "2023",
+      start: "Mar. 2023",
       end: "present",
       description:
         "Designed and developed websites and web applications for small and medium-sized businesses in the main sectors of gastronomy and winery.",
@@ -58,7 +58,7 @@ export const RESUME_DATA = {
       link: "https://sap.com",
       badges: [],
       title: "Developer",
-      start: "2023",
+      start: "Oct. 2023",
       end: "present",
       description:
         'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
@@ -68,8 +68,8 @@ export const RESUME_DATA = {
       link: "https://landau.dlrg.de",
       badges: ["Remote"],
       title: "Fullstack Software Engineer",
-      start: "2021",
-      end: "2023",
+      start: "Mar. 2021",
+      end: "Jun. 2023",
       description:
         "Build and led the development of a software for tracking COVID-19 rapid tests using UI5 and PHP. Tracked a total of 150,000 tests and saved a total of estimated 100+ Excel files.",
     },
@@ -78,8 +78,8 @@ export const RESUME_DATA = {
       link: "https://sap.com",
       badges: [],
       title: "Vocational Training Student",
-      start: "2020",
-      end: "2023",
+      start: "Sep. 2020",
+      end: "Oct. 2023",
       description:
         "I worked as student in various departments of the company and helped improve technologies and products, e.g. implemented a prototype of a Web Component for a Table Control (SAPUI5)",
     },
