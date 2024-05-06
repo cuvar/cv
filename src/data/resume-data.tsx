@@ -1,10 +1,4 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import {
-  ConsultlyLogo,
-  JarockiMeLogo,
-  Minimal,
-  MonitoLogo,
-} from "@/images/logos";
 
 export const RESUME_DATA = {
   name: "Luca Müller",
@@ -54,7 +48,6 @@ export const RESUME_DATA = {
       link: "https://vaevo.de/",
       badges: ["Remote"],
       title: "Co-Founder and Developer",
-      // logo: JojoMobileLogo,
       start: "2023",
       end: "present",
       description:
@@ -65,14 +58,13 @@ export const RESUME_DATA = {
       link: "https://sap.com",
       badges: [],
       title: "Developer",
-      // logo: ParabolLogo,
       start: "2023",
       end: "present",
       description:
         'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
     },
     {
-      company: "DLRG Ortsgruppe Landau e.V",
+      company: "DLRG Ortsgruppe Landau e.V.",
       link: "https://landau.dlrg.de",
       badges: ["Remote"],
       title: "Fullstack Software Engineer",
@@ -86,7 +78,6 @@ export const RESUME_DATA = {
       link: "https://sap.com",
       badges: [],
       title: "Vocational Training Student",
-      // logo: ParabolLogo,
       start: "2020",
       end: "2023",
       description:
@@ -94,14 +85,26 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js",
-    "Svelte",
-    "Node.js",
-    "GoLang",
-    "PHP",
-    "Java",
+    { name: "TypeScript" },
+    { name: "React/Next.js" },
+    { name: "Svelte" },
+    { name: "Node.js" },
+    { name: "Go" },
+    { name: "Git", variant: "secondary" },
+    { name: "Web Development", variant: "secondary" },
+    { name: "UI/UX", variant: "secondary" },
+    { name: "Agile / SCRUM", variant: "secondary" },
+    { name: "Project Planning", variant: "secondary" }, // personal projects, my life
+    // { PERSONAL },
+    { name: "Goal-orientation", variant: null }, // my life, personal projects, MVP
+    { name: "Adaptability / Flexibility", variant: null }, // new environments, intrinsic need for new environments, // TODO
+    { name: "Growth Mindset", variant: null }, // constant learning, reading, new technologies and concepts,
+    // { SOCIAL },
+    { name: "Empathy", variant: null }, // Compromise-oriented
+    // { METHODICAL },
+    { name: "Decisiveness", variant: null },
+    { name: "Organization", variant: null }, // my life, panal as personal project for solving this issue, work with todo lists my whole life
+    { name: "Analytical thinking", variant: null }, // personal projects, tech decisions,
   ],
   projects: [
     {
@@ -115,10 +118,29 @@ export const RESUME_DATA = {
         "NextAuth",
       ],
       description: "A widget-based dashboard for better productivity",
-      logo: ConsultlyLogo,
       link: {
         label: "panal.dyme.one",
         href: "https://panal.dyme.one/",
+      },
+    },
+    {
+      title: "weinevo",
+      techStack: ["TypeScript", "Next.js", "Tailwind", "tRPC", "NextAuth"],
+      description:
+        "A wine management and E-Label software for wineries in Germany",
+      link: {
+        label: "weinevo.eu",
+        href: "https://weinevo.eu/",
+      },
+    },
+    {
+      title: "TCA",
+      techStack: ["OpenUI5", "PHP", "JavaScript"],
+      description:
+        "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
+      link: {
+        label: "weinevo.eu",
+        href: "https://weinevo.eu/",
       },
     },
     {
@@ -132,7 +154,6 @@ export const RESUME_DATA = {
         "NextAuth",
       ],
       description: "A simple self-host vocabulary app for learning new words",
-      logo: MonitoLogo,
       link: {
         label: "vocab.dyme.one",
         href: "https://vocab.dyme.one/",
@@ -143,7 +164,6 @@ export const RESUME_DATA = {
       techStack: ["Side Project", "TypeScript", "Svelte", "Tailwind"],
       description:
         "A counter for the days since the last JS framework was released",
-      logo: MonitoLogo,
       link: {
         label: "dayssincelastjsframework.com",
         href: "https://dayssincelastjsframework.com/",
@@ -153,7 +173,6 @@ export const RESUME_DATA = {
       title: "swiper-action",
       techStack: ["Side Project", "React", "parcel"],
       description: "Simple react component for 'swipe-to-action'",
-      logo: JarockiMeLogo,
       link: {
         label: "github.com",
         href: "https://github.com/cuvar/swiper-action",
@@ -171,7 +190,6 @@ export const RESUME_DATA = {
         "Bash",
       ],
       description: "Research tool for analyzing the emissions of a website",
-      logo: Minimal,
       link: {
         label: "github.com",
         href: "https://github.com/cuvar/gisa-tool",
