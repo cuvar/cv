@@ -138,10 +138,6 @@ export const RESUME_DATA = {
       techStack: ["OpenUI5", "PHP", "JavaScript"],
       description:
         "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
-      link: {
-        label: "weinevo.eu",
-        href: "https://weinevo.eu/",
-      },
     },
     {
       title: "vocab",
