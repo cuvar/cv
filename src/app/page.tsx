@@ -34,10 +34,10 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground">
               {RESUME_DATA.contact.email ? (
                 <Button
-                  className="h-8 w-8"
+                  className="h-8 w-8 print:hidden"
                   variant="outline"
                   size="icon"
                   asChild
@@ -49,7 +49,7 @@ export default function Page() {
               ) : null}
               {RESUME_DATA.contact.tel ? (
                 <Button
-                  className="h-8 w-8"
+                  className="h-8 w-8 print:hidden"
                   variant="outline"
                   size="icon"
                   asChild
@@ -62,7 +62,9 @@ export default function Page() {
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
-                  className="h-8 w-8"
+                  className={`h-8 w-8 ${
+                    social.hiddenOnPrint ? "print:hidden" : ""
+                  }`}
                   variant="outline"
                   size="icon"
                   asChild
