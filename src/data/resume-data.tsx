@@ -149,7 +149,7 @@ export const RESUME_DATA = {
         "tRPC",
         "NextAuth",
       ],
-      description: "A simple self-host vocabulary app for learning new words",
+      description: "A self-hosted flash cards app for learning new things",
       link: {
         label: "vocab.dyme.one",
         href: "https://vocab.dyme.one/",
