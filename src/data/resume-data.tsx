@@ -192,4 +192,13 @@ export const RESUME_DATA = {
       },
     },
   ],
+  certification: [
+    {
+      name: "Google Cloud Platform Fundamentals",
+      providerName: "Cloud Academny",
+      issueDate: "Oct. 2021",
+      expirationDate: "????",
+      certificateId: "????"
+    },
+  ],
 } as const;
