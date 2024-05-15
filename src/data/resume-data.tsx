@@ -198,5 +198,10 @@ export const RESUME_DATA = {
       providerName: "Cloud Academy",
       issueDate: "Oct. 2021"
     },
+    {
+      name: "Business English Certificate Higher C1",
+      providerName: "Cambridge English Language Assessment",
+      issueDate: "May 2023"
+    },
   ],
 } as const;
