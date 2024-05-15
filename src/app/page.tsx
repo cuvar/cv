@@ -180,7 +180,7 @@ export default function Page() {
             <h2 className="text-xl font-bold">Certifications</h2>
             {RESUME_DATA.certification.map((certification) => {
               return (
-                <Card key={certification.name}>
+                <Card key={certification.name} className="my-1">
                   <CardHeader>
                     <div className="flex items-center justify-between gap-x-2 text-base">
                       <h3 className="font-semibold leading-none">
