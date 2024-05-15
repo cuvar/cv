@@ -192,4 +192,16 @@ export const RESUME_DATA = {
       },
     },
   ],
+  certification: [
+    {
+      name: "Google Cloud Platform Fundamentals",
+      providerName: "Cloud Academy",
+      issueDate: "Oct. 2021"
+    },
+    {
+      name: "Business English Certificate Higher C1",
+      providerName: "Cambridge English Language Assessment",
+      issueDate: "May 2023"
+    },
+  ],
 } as const;
