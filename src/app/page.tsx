@@ -199,17 +199,13 @@ export default function Page() {
                         )}
                       </h3>
                       <div className="text-sm tabular-nums text-gray-500">
-                        {certification.issueDate} - {" "}
-                        {certification.expirationDate}
+                        {certification.issueDate}
                       </div>
                     </div>
                     <h4 className="font-mono text-sm leading-none">
                       {certification.providerName}
                     </h4>
                   </CardHeader>
-                  <CardContent className="mt-2">
-                    Certificate ID: {certification.certificateId}
-                  </CardContent>
                 </Card>
               );
             })}
