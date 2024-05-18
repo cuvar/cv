@@ -108,9 +108,13 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        {work.company}
-                      </a>
+                      {work.link.length > 0 ? (
+                        <a className="hover:underline" href={work.link}>
+                          {work.company}
+                        </a>
+                      ) : (
+                        <div>{work.company}</div>
+                      )}
 
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
@@ -184,7 +188,8 @@ export default function Page() {
                   <CardHeader>
                     <div className="flex items-center justify-between gap-x-2 text-base">
                       <h3 className="font-semibold leading-none">
-                        {"link" in certification && typeof certification.link === "string" ? (
+                        {"link" in certification &&
+                        typeof certification.link === "string" ? (
                           <a
                             className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                             href={certification.link}

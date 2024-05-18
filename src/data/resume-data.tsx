@@ -64,6 +64,16 @@ export const RESUME_DATA = {
         'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
     },
     {
+      company: "StrongEducation UG (haftungsbeschränkt) (in liquidation)",
+      link: "",
+      badges: ["Remote"],
+      title: "Co-Founder and Developer",
+      start: "May 2021",
+      end: "present",
+      description:
+        "Consultancy services for digitization in the education sector. Development of a training platform for schools and teachers for learning more about digitalization.",
+    },
+    {
       company: "DLRG Ortsgruppe Landau e.V.",
       link: "https://landau.dlrg.de",
       badges: ["Remote"],
