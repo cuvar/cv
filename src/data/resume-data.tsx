@@ -91,14 +91,14 @@ export const RESUME_DATA = {
     { name: "Node.js" },
     { name: "Go" },
     { name: "Git", variant: "secondary" },
-    { name: "Web Development", variant: "secondary" },
+    { name: "Web development", variant: "secondary" },
     { name: "UI/UX", variant: "secondary" },
     { name: "Agile / SCRUM", variant: "secondary" },
-    { name: "Project Planning", variant: "secondary" }, // personal projects, my life
+    { name: "Project planning", variant: "secondary" }, // personal projects, my life
     // { PERSONAL },
     { name: "Goal-orientation", variant: null }, // my life, personal projects, MVP
     { name: "Adaptability / Flexibility", variant: null }, // new environments, intrinsic need for new environments, // TODO
-    { name: "Growth Mindset", variant: null }, // constant learning, reading, new technologies and concepts,
+    { name: "Growth mindset", variant: null }, // constant learning, reading, new technologies and concepts,
     { name: "Team spirit", variant: null }, // constant learning, reading, new technologies and concepts,
     // { SOCIAL },
     { name: "Empathy", variant: null }, // Compromise-oriented
