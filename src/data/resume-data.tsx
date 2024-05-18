@@ -99,6 +99,7 @@ export const RESUME_DATA = {
     { name: "Goal-orientation", variant: null }, // my life, personal projects, MVP
     { name: "Adaptability / Flexibility", variant: null }, // new environments, intrinsic need for new environments, // TODO
     { name: "Growth Mindset", variant: null }, // constant learning, reading, new technologies and concepts,
+    { name: "Team spirit", variant: null }, // constant learning, reading, new technologies and concepts,
     // { SOCIAL },
     { name: "Empathy", variant: null }, // Compromise-oriented
     // { METHODICAL },
@@ -116,6 +117,7 @@ export const RESUME_DATA = {
         "Tailwind",
         "tRPC",
         "NextAuth",
+        "Redis",
       ],
       description: "A widget-based dashboard for better productivity",
       link: {
@@ -125,7 +127,14 @@ export const RESUME_DATA = {
     },
     {
       title: "weinevo",
-      techStack: ["TypeScript", "Next.js", "Tailwind", "tRPC", "NextAuth"],
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind",
+        "tRPC",
+        "NextAuth",
+        "Relational DB",
+      ],
       description:
         "A wine management and E-Label software for wineries in Germany",
       link: {
@@ -135,7 +144,7 @@ export const RESUME_DATA = {
     },
     {
       title: "TCA",
-      techStack: ["OpenUI5", "PHP", "JavaScript"],
+      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
       description:
         "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
     },
@@ -148,6 +157,7 @@ export const RESUME_DATA = {
         "Tailwind",
         "tRPC",
         "NextAuth",
+        "Relational DB",
       ],
       description: "A self-hosted flash cards app for learning new things",
       link: {
@@ -157,7 +167,13 @@ export const RESUME_DATA = {
     },
     {
       title: "days-since-last-js-framework",
-      techStack: ["Side Project", "TypeScript", "Svelte", "Tailwind"],
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Svelte",
+        "Tailwind",
+        "Relational DB",
+      ],
       description:
         "A counter for the days since the last JS framework was released",
       link: {
@@ -196,12 +212,12 @@ export const RESUME_DATA = {
     {
       name: "Google Cloud Platform Fundamentals",
       providerName: "Cloud Academy",
-      issueDate: "Oct. 2021"
+      issueDate: "Oct. 2021",
     },
     {
       name: "Business English Certificate Higher C1",
       providerName: "Cambridge English Language Assessment",
-      issueDate: "May 2023"
+      issueDate: "May 2023",
     },
   ],
 } as const;
