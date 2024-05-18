@@ -143,12 +143,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "TCA",
-      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
-      description:
-        "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
-    },
-    {
       title: "vocab",
       techStack: [
         "Side Project",
@@ -166,6 +160,12 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "TCA",
+      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
+      description:
+        "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
+    },
+    {
       title: "days-since-last-js-framework",
       techStack: [
         "Side Project",
@@ -175,7 +175,7 @@ export const RESUME_DATA = {
         "Relational DB",
       ],
       description:
-        "A counter for the days since the last JS framework was released",
+        "A counter for the days since the latest JS framework release",
       link: {
         label: "dayssincelastjsframework.com",
         href: "https://dayssincelastjsframework.com/",
