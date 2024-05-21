@@ -164,7 +164,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section className="print:break-before-page">
+        <Section className="">
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {

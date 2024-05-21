@@ -64,10 +64,10 @@ export const RESUME_DATA = {
         'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
     },
     {
-      company: "StrongEducation UG (haftungsbeschränkt) (in liquidation)",
+      company: "StrongEducation UG (haftungsbeschränkt)",
       link: "",
       badges: ["Remote"],
-      title: "Co-Founder and Developer",
+      title: "Co-Founder and Developer (in liquidation)",
       start: "May 2021",
       end: "present",
       description:
@@ -107,7 +107,7 @@ export const RESUME_DATA = {
     { name: "Project planning", variant: "secondary" }, // personal projects, my life
     // { PERSONAL },
     { name: "Goal-orientation", variant: null }, // my life, personal projects, MVP
-    { name: "Adaptability / Flexibility", variant: null }, // new environments, intrinsic need for new environments, // TODO
+    { name: "Adaptability", variant: null }, // new environments, intrinsic need for new environments, // TODO
     { name: "Growth mindset", variant: null }, // constant learning, reading, new technologies and concepts,
     { name: "Team spirit", variant: null }, // constant learning, reading, new technologies and concepts,
     // { SOCIAL },
@@ -191,15 +191,15 @@ export const RESUME_DATA = {
         href: "https://dayssincelastjsframework.com/",
       },
     },
-    {
-      title: "swiper-action",
-      techStack: ["Side Project", "React", "parcel"],
-      description: "Simple react component for 'swipe-to-action'",
-      link: {
-        label: "github.com",
-        href: "https://github.com/cuvar/swiper-action",
-      },
-    },
+    // {
+    //   title: "swiper-action",
+    //   techStack: ["Side Project", "React", "parcel"],
+    //   description: "Simple react component for 'swipe-to-action'",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://github.com/cuvar/swiper-action",
+    //   },
+    // },
     {
       title: "gisa-tool",
       techStack: [
