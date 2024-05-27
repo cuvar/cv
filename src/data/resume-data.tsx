@@ -89,7 +89,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Vocational Training Student",
       start: "Sep. 2020",
-      end: "Oct. 2023",
+      end: "Sep. 2023",
       description:
         "I worked as student in various departments of the company and helped improve technologies and products, e.g. implemented a prototype of a Web Component for a Table Control (SAPUI5)",
     },
