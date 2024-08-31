@@ -1,4 +1,4 @@
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Luca Müller",
@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Walldorf",
   about: "Full Stack Engineer",
   summary:
-    "I'm an aspiring fullstack software engineer with a passion for the web and a love for developing user-facing applications. I find joy in creating helpful products that enhance user experiences. Currently, I'm contributing to the UI5 framework at SAP. I am enthusiastic about learning and exploring new technologies and fields, with a big interest in software architecture. Always driven by curiosity, I love staying on the cutting edge of software development trends. Hence, I actively seek opportunities to deepen my understanding and contribute to the design of systems and technologies.",
+    "I'm an aspiring fullstack software engineer with a passion for the web and a love for developing user-facing applications. I find joy in creating helpful products that enhance user experiences. Currently, I'm contributing to the UI5 framework at SAP. I am enthusiastic about learning and exploring new technologies and fields, with a big interest in software architecture and frontend technologies. I love staying on the cutting edge of software development trends. Hence, I actively seek opportunities to deepen my understanding and contribute to the design of systems and technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/49287189?v=4",
   personalWebsiteUrl: "https://cuvar.dev",
   contact: {
@@ -26,12 +26,12 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
         hiddenOnPrint: false,
       },
-      {
-        name: "X",
-        url: "https://x.com/devluca__",
-        icon: XIcon,
-        hiddenOnPrint: true,
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/devluca__",
+      //   icon: XIcon,
+      //   hiddenOnPrint: true,
+      // },
     ],
   },
   education: [
@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       start: "Oct. 2023",
       end: "present",
       description:
-        'My work comprises the maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata.',
+        'Maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata. Further, I designed and developed webcomponents for the UI5 framework.',
     },
     {
       company: "StrongEducation UG (haftungsbeschränkt)",
@@ -119,7 +119,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "panal",
+      title: "panal (WIP)",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -170,12 +170,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "TCA",
-      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
-      description:
-        "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
-    },
-    {
       title: "days-since-last-js-framework",
       techStack: [
         "Side Project",
@@ -190,6 +184,12 @@ export const RESUME_DATA = {
         label: "dayssincelastjsframework.com",
         href: "https://dayssincelastjsframework.com/",
       },
+    },
+    {
+      title: "TCA",
+      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
+      description:
+        "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
     },
     // {
     //   title: "swiper-action",
@@ -228,6 +228,11 @@ export const RESUME_DATA = {
       name: "Business English Certificate Higher C1",
       providerName: "Cambridge English Language Assessment",
       issueDate: "May 2023",
+    },
+    {
+      name: "Fitnesstrainer B-License",
+      providerName: "OTL Akademie",
+      issueDate: "May 2024",
     },
   ],
 } as const;
