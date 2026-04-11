@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Walldorf",
   about: "Full Stack Engineer",
   summary:
-    "I'm a fullstack software engineer with a passion for the web and a love for developing user-facing applications. I find joy in creating helpful products that enhance user experiences. Currently, I'm contributing to the UI5 framework at SAP. I am enthusiastic about learning and exploring new technologies and fields, with a big interest in software architecture and frontend technologies. I love staying on the cutting edge of software development trends. Hence, I actively seek opportunities to deepen my understanding and contribute to the design of systems and technologies.",
+    "Fullstack software engineer with 5+ years of experience at SAP and in startup environments. Co-founded two ventures andshipped multiple web and mobile products end-to-end. Looking to combine technical depth and hands-on building experience to work on climate issues.",
   avatarUrl: "https://avatars.githubusercontent.com/u/49287189?v=4",
   // personalWebsiteUrl: "https://cuvar.dev",
   contact: {
@@ -44,6 +44,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Sole Proprietorship",
+      link: "https://truegoods.eu",
+      badges: ["Remote"],
+      title: "Founder",
+      start: "Sept. 2025",
+      end: "present",
+      description:
+        "Built and launched two iOS apps independently: rumi for managing overthinking/decision paralysis, and quickie for ai-based meal planning. Covered the full stack — product, development, and go-to-market via social media.",
+    },
+    {
       company: "vaevo UG (haftungsbeschränkt)",
       link: "https://vaevo.de/",
       badges: ["Remote"],
@@ -51,7 +61,7 @@ export const RESUME_DATA = {
       start: "Mar. 2023",
       end: "present",
       description:
-        "Designed and developed websites and web applications for small and medium-sized businesses in the main sectors of gastronomy and winery.",
+        "Co-founded a software agency building web products for SMBs. Responsible for the full cycle — scoping, architecture, development, and delivery — across multiple client products simultaneously. Built weinevo, a wine management and E-Label SaaS, from zero to paying customers.",
     },
     {
       company: "SAP SE",
@@ -61,13 +71,13 @@ export const RESUME_DATA = {
       start: "Oct. 2023",
       end: "present",
       description:
-        'Maintenance and improvement of UI components for the UI5 frontend framework. I specialized in the development of so-called "SmartControls" and metadata-driven components that are used to create UI using metadata. Further, I designed and developed webcomponents for the UI5 framework.',
+        "Engineered UI components for the UI5 frontend framework used by enterprise applications globally. Specialized in metadata-driven component architecture, enabling declarative UI construction at scale - besides other broad framework contributions. Since Mar. 2026, focus shifted toward developing AI applications.",
     },
     {
       company: "StrongEducation UG (haftungsbeschränkt)",
       link: "",
       badges: ["Remote"],
-      title: "Co-Founder and Developer (in liquidation)",
+      title: "Co-Founder and Developer",
       start: "May 2021",
       end: "present",
       description:
@@ -95,38 +105,39 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    { name: "TypeScript" },
-    { name: "React/Next.js" },
-    { name: "Svelte" },
-    { name: "Node.js" },
-    { name: "Go" },
-    { name: "Git", variant: "secondary" },
-    { name: "Web development", variant: "secondary" },
+    { name: "React/Frontend Frameworks" },
+    { name: "JS/TS" },
+    { name: "Web Development" },
+    { name: "Mobile Development" },
+    { name: "Software Architecture", variant: "secondary" },
     { name: "UI/UX", variant: "secondary" },
-    { name: "Agile / SCRUM", variant: "secondary" },
-    { name: "Project planning", variant: "secondary" }, // personal projects, my life
-    // { PERSONAL },
-    { name: "Goal-orientation", variant: null }, // my life, personal projects, MVP
-    { name: "Adaptability", variant: null }, // new environments, intrinsic need for new environments, // TODO
-    { name: "Growth mindset", variant: null }, // constant learning, reading, new technologies and concepts,
-    { name: "Team spirit", variant: null }, // constant learning, reading, new technologies and concepts,
-    // { SOCIAL },
-    { name: "Empathy", variant: null }, // Compromise-oriented
-    // { METHODICAL },
-    { name: "Decisiveness", variant: null },
-    { name: "Organization", variant: null }, // my life, panal as personal project for solving this issue, work with todo lists my whole life
-    { name: "Analytical thinking", variant: null }, // personal projects, tech decisions,
+    { name: "AI/LLMs", variant: "secondary" },
   ],
   projects: [
     {
-      title: "weinevo",
+      title: "gisa-tool",
+      variant: "primary",
       techStack: [
-        "TypeScript",
+        "Research Project",
         "Next.js",
-        "Tailwind",
+        "Puppeteer",
+        "Docker",
+        "Bash",
+      ],
+      description:
+        "Research tool for measuring and analyzing the CO₂ emissions of websites. Quantifies the environmental footprint of web infrastructure to inform greener development practices.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/cuvar/gisa-tool",
+      },
+    },
+    {
+      title: "weinevo",
+      variant: "primary",
+      techStack: [
+        "Next.js",
         "tRPC",
-        "NextAuth",
-        "Relational DB",
+        "RDBMS",
       ],
       description:
         "A wine management and E-Label software for wineries in Germany",
@@ -136,26 +147,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "gisa-tool",
-      techStack: [
-        "Research Project",
-        "TypeScript",
-        "Next.js",
-        "Tailwind",
-        "Puppeteer",
-        "Docker",
-        "Bash",
-      ],
-      description: "Research tool for analyzing the emissions of a website",
-      link: {
-        label: "github.com",
-        href: "https://github.com/cuvar/gisa-tool",
-      },
-    },
-    {
       title: "rumi",
+      variant: "primary",
       techStack: [
-        "Side Project",
         "React Native",
         "Nest.js",
       ],
@@ -168,7 +162,6 @@ export const RESUME_DATA = {
     {
       title: "quickie",
       techStack: [
-        "Side Project",
         "React Native",
         "Nest.js",
       ],
@@ -179,33 +172,39 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "panal",
-      techStack: [
-        "Side Project",
-        "Next.js",
-        "tRPC",
-        "Redis",
-      ],
-      description: "A widget-based dashboard for better productivity",
-      link: {
-        label: "panal.dyme.one",
-        href: "https://panal.dyme.one/",
-      },
+      title: "TCA",
+      techStack: ["OpenUI5", "PHP", "JavaScript", "RDBMS"],
+      description:
+        "A management and acquisition software for COVID-19 rapid tests covering 150k+ tests",
     },
-    {
-      title: "vocab",
-      techStack: [
-        "Side Project",
-        "Next.js",
-        "tRPC",
-        "RDBMS",
-      ],
-      description: "A self-hosted flash cards app for learning new things",
-      link: {
-        label: "vocab.dyme.one",
-        href: "https://vocab.dyme.one/",
-      },
-    },
+    // {
+    //   title: "panal",
+    //   techStack: [
+    //     "Side Project",
+    //     "Next.js",
+    //     "tRPC",
+    //     "Redis",
+    //   ],
+    //   description: "A widget-based dashboard for better productivity",
+    //   link: {
+    //     label: "panal.dyme.one",
+    //     href: "https://github.com/cuvar/panal",
+    //   },
+    // },
+    // {
+    //   title: "vocab",
+    //   techStack: [
+    //     "Side Project",
+    //     "Next.js",
+    //     "tRPC",
+    //     "RDBMS",
+    //   ],
+    //   description: "A self-hosted flash cards app for learning new things",
+    //   link: {
+    //     label: "vocab.dyme.one",
+    //     href: "https://github.com/cuvar/vocab",
+    //   },
+    // },
     {
       title: "days-since-last-js-framework",
       techStack: [
@@ -220,12 +219,6 @@ export const RESUME_DATA = {
         label: "dayssincelastjsframework.com",
         href: "https://dayssincelastjsframework.com/",
       },
-    },
-    {
-      title: "TCA",
-      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
-      description:
-        "A management and acquisition software for COVID-19 rapid tests covering 150k+ tests",
     },
     // {
     //   title: "swiper-action",
