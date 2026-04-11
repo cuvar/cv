@@ -101,7 +101,7 @@ export const RESUME_DATA = {
       start: "Sep. 2020",
       end: "Sep. 2023",
       description:
-        "I worked as student in various departments of the company and helped improve technologies and products, e.g. implemented a prototype of a Web Component for a Table Control (SAPUI5)",
+        "Rotated across multiple departments at SAP, gaining hands-on experience in enterprise software development. Contributed to products and codebases throughout the program.",
     },
   ],
   skills: [
