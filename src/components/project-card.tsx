@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { Badge } from "./ui/badge";
 import {
   Card,
@@ -12,9 +13,10 @@ interface Props {
   description: string;
   tags: readonly string[];
   link?: string;
+  variant?: "primary" | "secondary";
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link, variant = "secondary" }: Props) {
   const linkIcon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +35,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
   );
 
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
+    <Card className={cn("flex flex-col overflow-hidden border p-3", variant === "primary" ? "border-primary border-2" : "border-muted")}>
       <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="text-base">
