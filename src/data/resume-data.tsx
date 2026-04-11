@@ -46,7 +46,7 @@ export const RESUME_DATA = {
     {
       company: "Sole Proprietorship",
       link: "https://truegoods.eu",
-      badges: ["Remote"],
+      badges: [],
       title: "Founder",
       start: "Sept. 2025",
       end: "present",
@@ -56,7 +56,7 @@ export const RESUME_DATA = {
     {
       company: "vaevo UG (haftungsbeschränkt)",
       link: "https://vaevo.de/",
-      badges: ["Remote"],
+      badges: ["In Liquidation"],
       title: "Co-Founder and Developer",
       start: "Mar. 2023",
       end: "present",
@@ -76,7 +76,7 @@ export const RESUME_DATA = {
     {
       company: "StrongEducation UG (haftungsbeschränkt)",
       link: "",
-      badges: ["Remote"],
+      badges: ["In Liquidation"],
       title: "Co-Founder and Developer",
       start: "May 2021",
       end: "present",
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
     {
       company: "DLRG Ortsgruppe Landau e.V.",
       link: "https://landau.dlrg.de",
-      badges: ["Remote"],
+      badges: [],
       title: "Fullstack Software Engineer",
       start: "Mar. 2021",
       end: "Jun. 2023",
