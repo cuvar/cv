@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Walldorf",
   about: "Full Stack Engineer",
   summary:
-    "Fullstack software engineer with 5+ years of experience at SAP and in startup environments. Co-founded two ventures andshipped multiple web and mobile products end-to-end. Looking to combine technical depth and hands-on building experience to work on climate issues.",
+    "Fullstack software engineer with 5+ years of experience at SAP and in startup environments. Co-founded two ventures and shipped multiple web and mobile products end-to-end. Looking to combine technical depth and hands-on building experience to work on climate issues.",
   avatarUrl: "https://avatars.githubusercontent.com/u/49287189?v=4",
   // personalWebsiteUrl: "https://cuvar.dev",
   contact: {
