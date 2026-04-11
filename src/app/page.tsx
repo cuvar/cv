@@ -236,10 +236,9 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
+          ...("personalWebsiteUrl" in RESUME_DATA
+            ? [{ url: RESUME_DATA.personalWebsiteUrl as string, title: "Personal Website" }]
+            : []),
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
