@@ -3,8 +3,8 @@ import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Luca Müller",
   initials: "LM",
-  location: "Walldorf, Germany, CET",
-  locationLink: "https://www.google.com/maps/place/Walldorf",
+  location: "Heidelberg, Germany, CET",
+  locationLink: "https://www.google.com/maps/place/Heidelberg",
   about: "Full Stack Engineer",
   summary:
     "Fullstack software engineer with 5+ years of experience at SAP and in startup environments. Co-founded two ventures and shipped multiple web and mobile products end-to-end. Looking to combine technical depth and hands-on building experience to work on climate issues.",
