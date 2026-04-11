@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Walldorf",
   about: "Full Stack Engineer",
   summary:
-    "I'm an aspiring fullstack software engineer with a passion for the web and a love for developing user-facing applications. I find joy in creating helpful products that enhance user experiences. Currently, I'm contributing to the UI5 framework at SAP. I am enthusiastic about learning and exploring new technologies and fields, with a big interest in software architecture and frontend technologies. I love staying on the cutting edge of software development trends. Hence, I actively seek opportunities to deepen my understanding and contribute to the design of systems and technologies.",
+    "I'm a fullstack software engineer with a passion for the web and a love for developing user-facing applications. I find joy in creating helpful products that enhance user experiences. Currently, I'm contributing to the UI5 framework at SAP. I am enthusiastic about learning and exploring new technologies and fields, with a big interest in software architecture and frontend technologies. I love staying on the cutting edge of software development trends. Hence, I actively seek opportunities to deepen my understanding and contribute to the design of systems and technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/49287189?v=4",
-  personalWebsiteUrl: "https://cuvar.dev",
+  // personalWebsiteUrl: "https://cuvar.dev",
   contact: {
     email: "luca@cuvar.dev",
     tel: null,
@@ -37,7 +37,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Corporate State University Baden-Württemberg Karlsruhe",
-      degree: "Bachelor's Degree in Computer Science (1.5)",
+      degree: "Bachelor's Degree in Computer Science",
       start: "Oct. 2020",
       end: "Sep. 2023",
     },
@@ -119,23 +119,6 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "panal (WIP)",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Tailwind",
-        "tRPC",
-        "NextAuth",
-        "Redis",
-      ],
-      description: "A widget-based dashboard for better productivity",
-      link: {
-        label: "panal.dyme.one",
-        href: "https://panal.dyme.one/",
-      },
-    },
-    {
       title: "weinevo",
       techStack: [
         "TypeScript",
@@ -153,54 +136,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "vocab",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Tailwind",
-        "tRPC",
-        "NextAuth",
-        "Relational DB",
-      ],
-      description: "A self-hosted flash cards app for learning new things",
-      link: {
-        label: "vocab.dyme.one",
-        href: "https://vocab.dyme.one/",
-      },
-    },
-    {
-      title: "days-since-last-js-framework",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Svelte",
-        "Tailwind",
-        "Relational DB",
-      ],
-      description:
-        "A counter for the days since the latest JS framework release",
-      link: {
-        label: "dayssincelastjsframework.com",
-        href: "https://dayssincelastjsframework.com/",
-      },
-    },
-    {
-      title: "TCA",
-      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
-      description:
-        "A management and acquisition software for COVID-19 rapid tests covering 150k tests",
-    },
-    // {
-    //   title: "swiper-action",
-    //   techStack: ["Side Project", "React", "parcel"],
-    //   description: "Simple react component for 'swipe-to-action'",
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://github.com/cuvar/swiper-action",
-    //   },
-    // },
-    {
       title: "gisa-tool",
       techStack: [
         "Research Project",
@@ -217,6 +152,90 @@ export const RESUME_DATA = {
         href: "https://github.com/cuvar/gisa-tool",
       },
     },
+    {
+      title: "rumi",
+      techStack: [
+        "Side Project",
+        "React Native",
+        "Nest.js",
+      ],
+      description: "iOS App for managing overthinking and decision paralysis",
+      link: {
+        label: "getrumi.eu",
+        href: "https://getrumi.eu/",
+      },
+    },
+    {
+      title: "quickie",
+      techStack: [
+        "Side Project",
+        "React Native",
+        "Nest.js",
+      ],
+      description: "iOS App for quickly finding recipes and managing meal plans",
+      link: {
+        label: "quickieapp.eu",
+        href: "https://quickieapp.eu/",
+      },
+    },
+    {
+      title: "panal",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "tRPC",
+        "Redis",
+      ],
+      description: "A widget-based dashboard for better productivity",
+      link: {
+        label: "panal.dyme.one",
+        href: "https://panal.dyme.one/",
+      },
+    },
+    {
+      title: "vocab",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "tRPC",
+        "RDBMS",
+      ],
+      description: "A self-hosted flash cards app for learning new things",
+      link: {
+        label: "vocab.dyme.one",
+        href: "https://vocab.dyme.one/",
+      },
+    },
+    {
+      title: "days-since-last-js-framework",
+      techStack: [
+        "Side Project",
+        "Svelte",
+        "Tailwind",
+        "RDBMS",
+      ],
+      description:
+        "A counter for the days since the latest JS framework release",
+      link: {
+        label: "dayssincelastjsframework.com",
+        href: "https://dayssincelastjsframework.com/",
+      },
+    },
+    {
+      title: "TCA",
+      techStack: ["OpenUI5", "PHP", "JavaScript", "Relational DB"],
+      description:
+        "A management and acquisition software for COVID-19 rapid tests covering 150k+ tests",
+    },
+    // {
+    //   title: "swiper-action",
+    //   techStack: ["Side Project", "React", "parcel"],
+    //   description: "Simple react component for 'swipe-to-action'",
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://github.com/cuvar/swiper-action",
+    //   },
+    // },
   ],
   certification: [
     {
@@ -230,7 +249,7 @@ export const RESUME_DATA = {
       issueDate: "May 2023",
     },
     {
-      name: "Fitnesstrainer B-License",
+      name: "Fitness Trainer B-License",
       providerName: "OTL Akademie",
       issueDate: "May 2024",
     },
