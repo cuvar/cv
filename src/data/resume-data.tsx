@@ -160,6 +160,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "truegoods",
+      techStack: [
+        "Side Project",
+        "Next.js",
+        "tRPC",
+        "RDBMS",
+      ],
+      description: "Website for analyzing consumer products on their environmental impact, similar to european-alternatives.eu",
+    },
+    {
       title: "quickie",
       techStack: [
         "React Native",
