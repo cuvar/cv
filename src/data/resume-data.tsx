@@ -215,21 +215,21 @@ export const RESUME_DATA = {
     //     href: "https://github.com/cuvar/vocab",
     //   },
     // },
-    {
-      title: "days-since-last-js-framework",
-      techStack: [
-        "Side Project",
-        "Svelte",
-        "Tailwind",
-        "RDBMS",
-      ],
-      description:
-        "A counter for the days since the latest JS framework release",
-      link: {
-        label: "dayssincelastjsframework.com",
-        href: "https://dayssincelastjsframework.com/",
-      },
-    },
+    // {
+    //   title: "days-since-last-js-framework",
+    //   techStack: [
+    //     "Side Project",
+    //     "Svelte",
+    //     "Tailwind",
+    //     "RDBMS",
+    //   ],
+    //   description:
+    //     "A counter for the days since the latest JS framework release",
+    //   link: {
+    //     label: "dayssincelastjsframework.com",
+    //     href: "https://dayssincelastjsframework.com/",
+    //   },
+    // },
     // {
     //   title: "swiper-action",
     //   techStack: ["Side Project", "React", "parcel"],
